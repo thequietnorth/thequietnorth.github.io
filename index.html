@@ -1,3 +1,21 @@
+# Archivos para GitHub Pages - The Quiet North LLC
+
+## Estructura de archivos necesaria:
+
+```
+/
+├── index.html
+├── CNAME
+└── favicon.png (opcional)
+```
+
+## 1. CNAME
+```
+thequietnorth.com
+```
+
+## 2. index.html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,6 +103,19 @@
       font-size: 0.9em;
       margin-top: 60px;
     }
+    h3 {
+      color: #003366;
+      font-size: 1.3em;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    .legal-notice {
+      background-color: #f8f9fa;
+      border-left: 4px solid #005288;
+      padding: 20px;
+      margin: 20px 0;
+      font-size: 0.95em;
+    }
   </style>
 </head>
 <body>
@@ -115,16 +146,16 @@
   <section>
     <h2>Publishing Focus</h2>
     <ul>
-      <li><strong>Cognitive Wellness:</strong> Workbooks and memory challenges for seniors and adults.</li>
-      <li><strong>Educational Puzzle Books:</strong> Themed content that develops logic and creativity in children aged 4–14.</li>
-      <li><strong>Trivia & Family Games:</strong> Intergenerational books that spark conversations and memories.</li>
-      <li><strong>Digital Integration:</strong> Select books include QR codes for online extras and printable resources.</li>
+      <li><strong>Cognitive Wellness:</strong> Memory and focus training workbooks for adults and seniors.</li>
+      <li><strong>Educational Puzzle Books:</strong> Engaging activities for children aged 4–14 that develop logic and creativity.</li>
+      <li><strong>Intergenerational Trivia:</strong> Books that connect families through shared memories and spark conversations.</li>
+      <li><strong>Hybrid Print + Digital:</strong> Selected books include online content and printable resources via QR codes.</li>
     </ul>
   </section>
 
   <section>
     <h2>Our Values</h2>
-    <p>We believe in intentional publishing. Our mission is to produce books that matter—rooted in science, clarity, and care. We prioritize emotional impact, accessibility, and long-term value over trends or volume.</p>
+    <p>We believe in intentional publishing. Our mission is to publish books that matter—rooted in science, clarity, and emotional impact. We focus on accessibility and long-term value over trends or volume. Our long-term vision is to become a reference in educational and therapeutic publishing, delivering accessible content in both print and digital formats.</p>
   </section>
 
   <section>
@@ -136,18 +167,98 @@
       <tr><td>Business Model:</td><td>Print and Digital Distribution</td></tr>
       <tr><td>Markets:</td><td>United States and International</td></tr>
       <tr><td>Established:</td><td>2025</td></tr>
+      <tr><td>State of Formation:</td><td>New Mexico</td></tr>
+      <tr><td>Date of Formation:</td><td>May 20, 2025</td></tr>
+      <tr><td>Federal EIN:</td><td>Available upon request for banking and legal purposes</td></tr>
+      <tr><td>NAICS Code:</td><td>511130 - Book Publishers</td></tr>
     </table>
   </section>
 
   <section>
+    <h2>Legal Information</h2>
+    <div class="two-column">
+      <div>
+        <h3>Business Registration Status</h3>
+        <p>The Quiet North LLC is a validly formed and existing Limited Liability Company under the laws of New Mexico, United States. The company was incorporated on May 20, 2025, and maintains good standing with all state authorities.</p>
+        
+        <h3>Compliance & Operations</h3>
+        <p>The company conducts legitimate publishing business operations in full compliance with U.S. federal and state regulations. All required business licenses and registrations are maintained and current.</p>
+      </div>
+      <div>
+        <h3>Official Business Addresses</h3>
+        <p><strong>Principal Place of Business:</strong><br>
+        407 Lincoln Road, Suite 708<br>
+        Miami Beach, FL 33139</p>
+        
+        <p><strong>Registered Agent:</strong><br>
+        Getting Rich LLC<br>
+        6300 Riverside Plaza NW, Suite 100<br>
+        Albuquerque, NM 87120</p>
+        
+        <h3>Banking Documentation</h3>
+        <p>Official formation documents, EIN letter, and operating agreements available upon request for banking verification purposes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Business Activities</h2>
+    <p><strong>Primary Business Purpose:</strong> Publishing and distribution of educational books and cognitive wellness materials in both print and digital formats.</p>
+    
+    <h3>Current Business Operations:</h3>
+    <ul>
+      <li>Book publishing and content development</li>
+      <li>Print-on-demand publishing services</li>
+      <li>Digital publishing and online distribution</li>
+      <li>Educational content sales to consumers and institutions</li>
+      <li>International distribution partnerships</li>
+    </ul>
+
+    <h3>Expected Revenue Sources:</h3>
+    <ul>
+      <li>Book sales through major retail platforms (Amazon, Barnes & Noble)</li>
+      <li>Direct sales via company website</li>
+      <li>Educational institution sales</li>
+      <li>Digital content licensing</li>
+    </ul>
+  </section>
+
+  <section>
     <h2>Contact</h2>
-    <p>For inquiries or verification, feel free to reach out:</p>
+    <p>For inquiries, verification, or business correspondence:</p>
     <a href="mailto:contact@thequietnorth.com" class="contact-btn">Contact Us</a>
+    
+    <div class="legal-notice">
+      <strong>Banking Verification:</strong> Certificate of Formation (New Mexico, May 20, 2025), Federal EIN confirmation, and Articles of Organization available upon request for banking account opening and verification purposes.
+    </div>
   </section>
 
   <footer>
-    &copy; 2025 The Quiet North LLC · EIN available upon request · U.S. Registered Business
+    &copy; 2025 The Quiet North LLC · New Mexico Registered LLC · EIN available upon request · Principal Place of Business: Miami Beach, FL
   </footer>
 
 </body>
 </html>
+```
+
+## Pasos para subir a GitHub:
+
+1. **Crear repositorio en GitHub:**
+   - Nombre sugerido: `thequietnorth-website`
+   - Marcar como público
+
+2. **Subir archivos:**
+   - Copiar el contenido del `index.html` arriba
+   - Crear archivo `CNAME` con contenido: `thequietnorth.com`
+   - (Opcional) Añadir `favicon.png` si tienes uno
+
+3. **Activar GitHub Pages:**
+   - Settings → Pages → Source: Deploy from a branch
+   - Branch: `main` o `master`
+   - Folder: `/ (root)`
+
+4. **Configurar DNS:**
+   - En tu proveedor de dominio, apuntar `thequietnorth.com` a GitHub Pages
+   - Récords A: 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
+
+¡La web estará lista para los bancos en unos minutos después de la propagación DNS!
